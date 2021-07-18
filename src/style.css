@@ -45,7 +45,7 @@ nos aparecen todos los header del mism color*/
 }
 
 .link_Header {
-    border: 10 px solid rgb(4, 128, 0);
+    background-color: #b0e0f3;
     padding: 5px;
     text-decoration: none;
     color: black;
@@ -70,20 +70,21 @@ nos aparecen todos los header del mism color*/
 }
 
 .link_aside{
-   /* border: 10 px solid rgb(4, 128, 0);*/
+    background-color: rgb(84, 226, 172);
+ 
     padding: 5px;
     text-decoration: none;
     color: black;
     font-weight: 600;
 }
 .list-item_Aside{
-    border: 2px solid rgb(184 222 220);
+    border: 2px solid rgb(50, 231, 192);
     padding: 15px;
     margin: 5px;
 }
 
 #asideContent{
-    border: 6px solid rgb(33, 194, 140);
+    border: 6px solid rgb(103, 206, 172);
     padding: 20px;
    margin: 5px; 
     margin-top: 15px;
