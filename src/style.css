@@ -7,38 +7,45 @@
 
 /* Armando estructura de cajas*/
 body {
-    border: 3px solid red;
-    margin: 5px;
-    padding: 10px;
+   border: 10px solid rgb(77, 77, 74);
+   margin: 5px;
+   padding: 22px;
 }
 
 /* Estilos de header */
 header {
-    border: 3px solid blue;
-    margin-bottom: 10px;
+    border: 8px solid rgba(9, 9, 100, 0.897);
+    border-radius: 8px;
+    margin-bottom: 20px;
     padding: 5px;
 }
 
 /* Estilos de etiqueta: */
 nav {
-    border: 2px solid green;
     padding: 10px;
+    margin: 8px;
+    border: 6px solid rgba(25, 25, 212, 0.897);
+    border-radius: 8px;
+   
 }
 
 /* Selector de clase lleva siempre un . (punto) antes del nombre de la clase: si no lo ponemos
 nos aparecen todos los header del mism color*/
 .nav_Header {
-    border: 2px dashed yellow;
+    border: 4px dashed rgb(67, 173, 214);
     padding: 25px;
+    margin: 5px;
 }
 
 .list-item_Header {
-    border: 2px solid violet;
+    border: 2px solid lightblue;
     padding: 10px;
+    margin-bottom: 10px;
+   
 }
 
 .link_Header {
-    border: 2 px solid purple;
+    border: 10 px solid rgb(4, 128, 0);
     padding: 5px;
     text-decoration: none;
     color: black;
@@ -48,6 +55,71 @@ nos aparecen todos los header del mism color*/
 /* Estilos del Contenido (Main)*/
 /* Selector de id, lleva siempre un # (Almoadilla) antes del nombre del id */
 #mainContent {
-    border: 2px solid oragered;
+    border: 8px solid rgb(5, 95, 5);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+   
 }
 
+#parrafos {
+    border: 2px solid lightgreen;
+    padding: 5px;
+    margin: 15px;
+   
+}
+
+.link_aside{
+   /* border: 10 px solid rgb(4, 128, 0);*/
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.list-item_Aside{
+    border: 2px solid rgb(184 222 220);
+    padding: 15px;
+    margin: 5px;
+}
+
+#asideContent{
+    border: 6px solid rgb(33, 194, 140);
+    padding: 20px;
+   margin: 5px; 
+    margin-top: 15px;
+
+}
+#asideContent2{
+    border: 4px dotted rgb(33, 194, 140);
+    padding: 20px;
+   margin: 5px; 
+    margin-top: 15px;
+
+}
+#h3Content{
+    border: 3px dashed rgb(93, 221, 89);
+    padding: 5px;
+    margin: 5px;
+}
+#footerContent{
+    border: 8px solid rgb(206, 11, 157);
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+#parrafosf{
+    border: 2px dotted rgb(240, 25, 186);
+    padding: 5px;
+  
+}
+
+#h2Content{
+    border: 4px dashed rgb(93, 221, 89);
+    padding: 10px;
+    margin: 5px;
+}
+#articleContent{
+    border: 6px solid rgb(9, 185, 47);
+    padding: 10px;
+    margin: 5px;
+}
